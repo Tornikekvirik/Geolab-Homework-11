@@ -1,0 +1,180 @@
+@media (max-width:1170px){
+    .title-container{
+        margin-left: 30px;
+    }
+}
+@media (max-width:1070px){
+    .image-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-container img{
+        margin-bottom: 20px;
+    }
+    .title-container{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media(max-width:750px){
+    .contact-wrapper{
+        margin: 0 auto;
+        
+    }
+    .textarea{
+        max-width: 400px;
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .test{
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .about{
+        margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
+
+    }
+    .privacy{
+        margin-bottom: 20px;
+    }
+    .links{
+        text-align: center;
+    }
+    .privacy{
+        text-align: center;
+    }
+    
+}
+@media(max-width:550px){
+    .form-container{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .textarea{
+        max-width: 352px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .textarea-container{
+        display: none;
+    }
+    .textarea-container1{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .card-container{
+        margin-bottom: 15px;
+    }
+    .header-wrapper{
+        text-align: center;   
+    }
+}
+@media (max-width:484px){
+    .title-container h2{
+        font-size: 25px;
+    }
+}
+@media(max-width:463px){
+    .title-container{
+        max-width: 200px;
+        width: 100%;
+    }
+}
+@media(max-width:420px){
+    .contact-wrapper h1{
+        font-size: 30px;
+    }
+    .form-wrapper input{
+        max-width: 250px;
+        width: 100%;
+        height: 60px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    .button{
+        max-width: 250px;
+        width: 100%;
+        height: 60px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .textarea{
+        max-width: 250px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:362px){
+    .contact-wrapper{
+        margin: 0 auto;
+    }
+    .image-container img{
+        max-width: 250px;
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+    .container{
+        margin: 0 auto;
+    }
+}
+@media(max-width:350px){
+    .form-wrapper input{
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    .textarea{
+        margin: 0 auto;
+    }
+    .button{
+        margin-bottom: 10px;
+    }
+    .form-container{
+        padding-left: 0;
+        margin: 0 auto;
+    }
+}
+@media(max-width:280px){
+    .form-container{
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    .form-wrapper input{
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    .textarea{
+        margin: 0 auto;
+    }
+    .button{
+        margin-bottom: 10px;
+    }
+    .header{
+        padding-left: 0;
+    }
+    .contact-wrapper{
+        width: 230px;
+    }
+    .title-container{
+        max-width: 350px;
+        width: 100%;
+
+    }
+    .about{
+        font-size: 9px;
+    }
+}
